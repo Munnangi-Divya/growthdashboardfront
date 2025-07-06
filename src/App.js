@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import Dashboard from "./components/Dashboard";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="min-h-screen bg-white text-gray-800">
+      <h1 className="text-3xl font-bold text-center mt-6">Local Business Dashboard</h1>
+      <Dashboard />
     </div>
   );
 }
 
 export default App;
+
+
